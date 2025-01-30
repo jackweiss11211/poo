@@ -1,0 +1,23 @@
+{
+  "name": "pornsearch-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "latest",
+    "pornsearch": "latest",
+    "archiver": "latest",
+    "axios": "latest",
+    "@justalk/pornhub-api": "latest",
+    "cheerio": "latest",
+    "puppeteer-core": "latest"
+  },
+  "devDependencies": {
+    "puppeteer": "latest"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  }
+}
